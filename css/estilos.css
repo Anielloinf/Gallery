@@ -1,0 +1,109 @@
+.nav {
+    z-index: 600;
+    position: fixed;
+    color: white;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.89);
+    font-size: 18px;
+}
+
+
+
+.header .title {
+    z-index: 500;
+    position: absolute;
+    color: white;
+    top: 250px;
+
+}
+
+.header {
+    display: flex;
+    justify-content: left;
+}
+
+.header .subtitle {
+    z-index: 500;
+    position: absolute;
+    color: white;
+    top: 350px;
+
+}
+
+.header a {
+    z-index: 500;
+    position: absolute;
+    color: white;
+    padding: 10px 15px;
+    top: 450px;
+    border: 3px solid white;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.header a:hover {
+    background-color:  #c70039;
+    
+}
+
+
+.nav ul {
+    display: flex;
+    margin-right: 20px;
+    justify-content: center;
+    
+}
+
+
+.element a {
+    margin: 0px 20px;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+.element a:hover {
+    border-bottom: 5px solid #c70039;
+}
+
+.contenido{
+    position: relative;
+    background-color: blue;
+}
+
+.footer-text{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background: rgb(0, 0, 0);
+    border-top: 1px solid white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text p{
+    color: white;
+    font-size: 20px;
+    
+}
+
+
+.boton a {
+    color: white;
+    padding: 10px 15px;
+    top: 450px;
+    border: 3px solid white;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.boton a:hover {
+    background-color: #c70039;
+    
+}
